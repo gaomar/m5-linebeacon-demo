@@ -1,0 +1,8 @@
+[build]
+    command = "npm run build"
+    functions = "functions"
+
+[build.environment]
+    CHANNEL_SECRET="XXXXXXXXXXXXXXXXXXXXXXXXXX"
+    CHANNEL_ACCESS_TOKEN="XXXXXXXXXXXXXXXXXXXXXXXX"
+    SPREADSHEET_URL=""
